@@ -1,0 +1,12 @@
+1) malloc alloc free all are included in header file <stdlib.h>
+2)mod (%) only can be used with intergers.
+3) short ckt condition for logical and && is that if first codn is false then op is always false (will not execute remaining operns arent calculated)
+4) short ckt condn for logical or is that if first condn is true then op is always true(remaainig condns are not even checked).
+5) print func if equated returns the no of charecters it prints. eg i = printf("abc) then value of i will be 3
+6) b = 5,4,3; //here operator precedence takes place as = has more pref than , thus b is assigned first 
+   thus b=5
+7) b = (5,4,3); here operator precedence takes place as = has less precedence than () thus () executte first also rightmost value is used first always 
+   thus b =3
+8) printf("%.0f",8.89); //this using this precision prints the next precision value
+9) *%/ in left to right precedence 
+   +- in left to right precende
